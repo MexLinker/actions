@@ -13,12 +13,13 @@ mail_pass = 'AXUBECLAOYRFPTWG'
 sender = 'maxnbd@126.com'  
 receivers = ['2644087688@qq.com']  
 
-b = '______________________\n'.join(temp)
+b = '_____________________________________________________________________________________formGITHUB\n'.join(temp)
 
 message = MIMEText(b,'plain','utf-8')
 message['Subject'] = 'Conduction Of Bili Tops' 
 message['To'] = receivers[0]  
 
+f = open("./README.md")
 
 try:
     smtpObj = smtplib.SMTP() 
