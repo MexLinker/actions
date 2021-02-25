@@ -9,7 +9,7 @@ temp = content.xpath("//a[@class='title']/text()")
 
 mail_host = 'smtp.126.com'  
 mail_user = 'maxnbd'
-mail_pass = 'AXUBECLAOYRFPTWG'   
+mail_pass = 'DUXAZGJONJWOLTPX'   
 sender = 'maxnbd@126.com'  
 receivers = ['2644087688@qq.com']  
 
